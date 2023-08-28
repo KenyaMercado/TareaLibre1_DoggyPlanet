@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif; /* Fuente importada */
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 17%;
+    background-color: #2688BC;
+}
+h1{
+    padding-top: 35px;
+    color: #fff;
+    font-size: 40px;
+}
+#contenedor_pelota{
+    width: 5%;
+    height: 50%;
+    text-align: center;
+    float: left;
+    background-color: #2688BC;
+    padding-left: 500px;
+    padding-top: 35px;
+    padding-right: 70px;
+}
+
+.fondo{
+    background-size: cover;
+    height: 83%;
+    width: 100%;
+    background-image: url(resources/fondoIndex.jpeg);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contenido {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo opaco para contenido */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Color de texto en contenido */
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+  
+#nombre-perro{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+#btn-nombre{
+    padding: 8px 20px;
+    background-color: #2688BC;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
